@@ -6,17 +6,17 @@ export const options = {
     bl_lng: '116.978812', 
     tr_lat: '21.896103', 
     tr_lng: '126.604984', 
-    limit: '300'
+    limit: '100'
   },
   headers: {
-    'x-rapidapi-key': '77310e42f5msh09b1ef868dacd82p1ce9f5jsne82a6898407f',
+    'x-rapidapi-key': 'b556518c7dmshfe9db65ba10836ap1c2030jsn53bd98d22c6d',
     'x-rapidapi-host': 'flight-radar1.p.rapidapi.com'
   },
 };
 
 export const headerOpt = {
   headers: {
-    'x-rapidapi-key': '77310e42f5msh09b1ef868dacd82p1ce9f5jsne82a6898407f',
+    'x-rapidapi-key': 'b556518c7dmshfe9db65ba10836ap1c2030jsn53bd98d22c6d',
     'x-rapidapi-host': 'flight-radar1.p.rapidapi.com'
   },
 };
