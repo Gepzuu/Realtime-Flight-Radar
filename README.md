@@ -1,7 +1,8 @@
 # Realtime Flight Radar
 <div align="center">
-This project is a real-time flight radar specifically designed for tracking air traffic in the Philippines. The website provides a visualization of all the real-time air traffic happening in the Philippines.
+This project is a real-time flight radar, specifically designed for tracking air traffic in the Philippines, and is mobile responsive. The website provides a visualization of all the real-time air traffic happening in the Philippines.
 </div>
+
 
 # Preview
 
