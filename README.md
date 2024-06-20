@@ -6,11 +6,12 @@ This project is a real-time flight radar, specifically designed for tracking air
 
 # Preview
 
-![Screenshot 2024-06-18 195225](https://github.com/Gepzuu/React-Realtime-Flight-Radar/assets/92858147/a69b804c-6a1d-46a0-ad98-6a00485a794c)
-![Screenshot 2024-06-18 195201](https://github.com/Gepzuu/React-Realtime-Flight-Radar/assets/92858147/f84fa4dc-65cb-410e-8bfc-f4d0ec86ac55)
-![Screenshot 2024-06-18 195154](https://github.com/Gepzuu/React-Realtime-Flight-Radar/assets/92858147/220bb0c3-2391-43e6-8f97-1b1897931c8b)
-![Screenshot 2024-06-18 195146](https://github.com/Gepzuu/React-Realtime-Flight-Radar/assets/92858147/a1d00ddf-1bcc-4cdc-a375-ed3136eaf286)
-![Screenshot 2024-06-18 195103](https://github.com/Gepzuu/React-Realtime-Flight-Radar/assets/92858147/17337e5b-2785-4d5d-b548-71d8245256b9)
+
+![ft5](https://github.com/Gepzuu/React-Realtime-Flight-Radar/assets/92858147/9eace635-6e94-4743-8582-737005a4d01a)
+![ft4](https://github.com/Gepzuu/React-Realtime-Flight-Radar/assets/92858147/29e3342d-2e05-4e28-8684-b21d58ae61bb)
+![ft3](https://github.com/Gepzuu/React-Realtime-Flight-Radar/assets/92858147/e349be5e-fec0-412b-b1f3-7a377df0a33e)
+![ft2](https://github.com/Gepzuu/React-Realtime-Flight-Radar/assets/92858147/d05d9c5a-ae23-46c9-aaf0-7c15ff32087e)
+![ft1](https://github.com/Gepzuu/React-Realtime-Flight-Radar/assets/92858147/0604d6f4-acf1-43a5-b079-7bbfe88027d8)
 
 
 
