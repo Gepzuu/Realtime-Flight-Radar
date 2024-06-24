@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -36,7 +35,7 @@ const ListView = ({ setDetailId }) => {
         </thead>
         <tbody>
           {currentItems.slice(0, 10).map((i) => (
-            <tr>
+            <tr key={i.id}> {/* Added key prop */}
               <td>{i.id}</td>
               <td>{i.code}</td>
               <td>{i.lat}</td>
