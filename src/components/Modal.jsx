@@ -6,13 +6,11 @@ import { setPath } from "../redux/slices/flightSlice";
 import { useDispatch } from "react-redux";
 
 const Modal = ({ detailId, close }) => {
- 
   const [d, setDetail] = useState(null);
 
   const dispatch = useDispatch();
   
   useEffect(() => {
-    
     setDetail(null);
     
     axios
@@ -31,7 +29,8 @@ const Modal = ({ detailId, close }) => {
     <div className="detail-outer">
       <div className="detail-inner">
         <p className="close-area">
-          <span onClick={close}>X</span>
+          {/* Adding tabIndex="0" to make the span focusable */}
+          <span tabIndex="0" onClick={close}>X</span>
         </p>
         {!d ? (
           <div className="wrapper">

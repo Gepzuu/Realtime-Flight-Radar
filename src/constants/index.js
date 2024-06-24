@@ -9,14 +9,14 @@ export const options = {
     limit: '100'
   },
   headers: {
-    'x-rapidapi-key': 'b556518c7dmshfe9db65ba10836ap1c2030jsn53bd98d22c6d',
+    'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
     'x-rapidapi-host': 'flight-radar1.p.rapidapi.com'
   },
 };
 
 export const headerOpt = {
   headers: {
-    'x-rapidapi-key': 'b556518c7dmshfe9db65ba10836ap1c2030jsn53bd98d22c6d',
+    'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
     'x-rapidapi-host': 'flight-radar1.p.rapidapi.com'
   },
 };
