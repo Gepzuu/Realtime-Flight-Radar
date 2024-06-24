@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 
 const Header = () => {
-  const flightState = useSelector((store) => store);
+  useSelector((store) => store); 
 
   return (
     <header>
@@ -9,8 +9,6 @@ const Header = () => {
         <img src="/p1.png" alt="" />
         <h3>Philippines Realtime Flight Radar</h3>
       </div>
-
-     
     </header>
   );
 };

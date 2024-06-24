@@ -5,13 +5,10 @@ import MapView from "./pages/MapView";
 import { useDispatch } from "react-redux";
 import { getFlights } from "./redux/actions/flightaActions";
 import Modal from "./components/Modal";
+
 const App = () => {
-  
-  const [isMapView, setIsMapView] = useState(true);
-  
   const [detailId, setDetailId] = useState(null);
   const dispatch = useDispatch();
-
 
   useEffect(() => {
     dispatch(getFlights());
@@ -19,17 +16,15 @@ const App = () => {
       dispatch(getFlights());
     }, 5000);
   }, []);
+
   return (
     <div>
       <Header />
-      
-     
-      {isMapView ? (
+      {true ? (
         <MapView setDetailId={setDetailId} />
       ) : (
         <ListView setDetailId={setDetailId} />
       )}
-    
       {detailId && (
         <Modal detailId={detailId} close={() => setDetailId(null)} />
       )}
